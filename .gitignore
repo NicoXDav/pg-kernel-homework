@@ -1,0 +1,10 @@
+# 编译产物
+*.o
+test_smgr
+linked_search_perf
+
+# 块设备镜像（运行测试时生成）
+disk.img
+
+# macOS
+.DS_Store
