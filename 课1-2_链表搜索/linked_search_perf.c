@@ -28,6 +28,7 @@
 #ifdef __linux__
 #include <unistd.h>
 #include <sys/syscall.h>
+#include <sys/ioctl.h>
 #include <linux/perf_event.h>
 
 static long
